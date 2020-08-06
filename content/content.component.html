@@ -1,0 +1,51 @@
+<!-- content component HTML -->
+<section class="gridArea">
+    <div class="imgArea common">
+     <h1>BreakFast Menu</h1>
+     <ul>
+       <li>
+         Name of the food: {{stoStudent.bfname}}
+       </li>
+       <li>
+        Item price: {{stoStudent.bfpri}}
+      </li><li>
+        Amount of calories: {{stoStudent.bfcal}}
+      </li>
+<br><br> 
+<h1>Lunch Menu</h1>
+     
+       <li>
+         Name of the food: {{stoStudent.lunchname}}
+       </li>
+       <li>
+        Item price: {{stoStudent.lunchpri}}
+      </li><li>
+        Amount of calories: {{stoStudent.lunchcal}}
+      </li>
+<br><br>
+<h1>Dinner Menu</h1>
+     
+       <li>
+         Name of the food: {{stoStudent.dinnername}}
+       </li>
+       <li>
+        Item price: {{stoStudent.dinnerpri}}
+      </li><li>
+        Amoutn of calories: {{stoStudent.dinnercal}}
+      </li>
+<br><br>
+     </ul>
+     
+    </div>
+    <div class="listArea common">
+      <h1>Student Info:</h1>
+      <ul>
+        <li>Name: {{stuStudent.sname | uppercase}}</li>
+        <li>student number: {{stuStudent.snum}}</li>
+        <li>login: {{stuStudent.slogin}}</li>
+        <li>campus: {{stuStudent.scampus}}</li>
+       <li>assignment title: {{stuStudent.sassititle}}</li>
+
+      </ul> 
+    </div>  
+  </section>

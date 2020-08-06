@@ -1,0 +1,9 @@
+{
+    "dinner": 
+      [
+          {"dinnername": "steak"},
+          {"dinnerpri": 47},
+          {"dinnercal": 250}
+          
+    ]
+  }
